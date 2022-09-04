@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.gogole-img {
+  width: 25vw;
+}
+.input-container {
+  display: flex;
+  border: 1px solid #dcdcdc;
+  outline: none;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-top: 10px;
+  border-bottom: none;
+}
+.input-icon {
+  width: 2vw;
+  border: none;
+  height: 4vh;
+}
+.search-input {
+  border: none;
+  outline: none;
+  height: 45px;
+  width: 500px;
+  color: #64748b;
+  font-size: 18px;
+}
+.list-container {
+  border: 1px solid #dcdcdc;
+  border-top: none;
+  width: 544px;
+  margin: 0;
+  padding: 0px 10px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
